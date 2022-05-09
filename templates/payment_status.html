@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+     {% if status %}
+
+
+   <div class='container' style='text-align: center;'>
+
+<i class="fa fa-check-circle-o" aria-hidden="true" style='font-size:80px; color:green;'></i>
+</div>
+
+<h2 style='text-align: center;'>Thank YOU.. Your Payment was successful.</h2>
+
+{% else %}
+
+   <h2 style='text-align: center'>Your payment is failed ! Try again.</h2>
+   {% endif %}
+   <div class='text-align: center mt-5'>
+   <a href='{% url 'coffee-payment' %}'class='btn btn-primary' role='button'>Buy another one</a>
+
+   </div>
+
+{% endblock %}

@@ -1,0 +1,26 @@
+body{
+    background:url(https://i.pinimg.com/originals/f4/9e/2c/f49e2c7a9888eefc7dc65a6a5df928a5.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    color:red;
+
+}
+h1{
+    text-align: center;
+    background: red;
+}
+ul{
+    font-size: 30px;
+    color: white;
+}
+.jumbotron{
+    margin-top: 200px;
+    background: red;
+    color: green;
+}
+img{
+    height: 250px;
+    width: 20%;
+    border: 20px solid red;
+    margin: 20px;
+}
